@@ -70,7 +70,7 @@ while unchecked:
 	unchecked.pop(cur_pos)
 fullPath=[]
 fullPath.append(cur_pos)
-cell=(19,17)
+cell=(cur_pos[0],cur_pos[1])
 while cell!=(0,0):
 	fullPath.append(reversepath[cell])
 	cell=reversepath[cell]
