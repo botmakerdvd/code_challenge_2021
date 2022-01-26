@@ -6,5 +6,4 @@ for i in range(n):
     if needed < 13 :
         print("Case #"+str(i+1)+": "+str(needed))
     else:
-
         print("Case #"+str(i+1)+": -")
